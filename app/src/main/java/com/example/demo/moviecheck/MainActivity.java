@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else{
                     MyTask t1 = new MyTask();
-                    t1.execute("http://www.omdbapi.com/?apikey=1c38dfd2&s=" + query);
+                    t1.execute("https://www.omdbapi.com/?apikey=1c38dfd2&s=" + query);
                 }
             }
         });
